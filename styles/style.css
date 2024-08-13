@@ -1,23 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grey+Qo&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body{
     font-family: "Inter", sans-serif;
-   /* background-color: rgba(17, 17, 17, 1); */
+   background-color: rgba(17, 17, 17, 1);
 }
 .header{
 
     background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
-    /* width: 1440px;
-    height: 715px; */
+  
 }
 /* shared style  */
 .btn{
 
-    background-color:rgba(230, 83, 60, 1);
+    background-color:rgb(230, 83, 60);
     border: none;
     border-radius:15px ;
     color: white;
     padding: 8px 20px 8px 20px;
     gap: 10px;
+}
+.circle-btn{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+    margin-top: 30px;
+    margin-right: 10px;
+    
+}
+.btn-transparent{
+    
+    background-color:transparent;
+    border:1px solid white;
+    border-radius:15px ;
+    color: white;
+    padding: 8px 20px 8px 20px;
+    gap: 10px;
+
+
+}
+.white-text{
+    color: white;
+    /* font-size: xx-large; */
+    
+}
+.gray-text{
+    color: rgba(255, 255, 255, 0.5);
+    size: 16px;
+
 }
 .header{
     background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
@@ -28,10 +58,11 @@ body{
     justify-content: space-between;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 45px;
     
 }
 .nav-title{
+    font-style: italic;
     margin: 0;
     color: rgba(230, 83, 60, 1);
     margin-left: 60%;
@@ -40,11 +71,12 @@ body{
    background-color: transparent;
    border: none;
    color: white;
+   padding-right: 40px;
   
 }
 .nav-menu{
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 4px;
+    padding: 3px;
     gap: 47px;
     border-radius: 39px;
     margin-right: 8%;
@@ -52,9 +84,66 @@ body{
 
 .header-section{
     display: flex;
+    /* width: 50%;
+    height:50% ;  */
+    height: 300px;
+    margin-left: 150px ;
+    /* margin-top: 100px; */
+}
+.header-info{
+    width: 570px;
+    height: 400px;
+    /* border: 1px solid green; */
+    padding-top:50px;
+    
+}
+.header-text-design{
+    font-family: "Grey Qo", cursive;
+    color: white;
+    font-style: italic;
+    font-size:xx-large;
+
+
 }
 .header-img{
     width: 39px;
     height: 580px;
+    margin-left: 100px;
+    width: 300px;
+    height: 450px;
+    /* border: 1px solid green; */
+    padding-left: 50px;
+}
+.header-man-sec{
+    display: flex;
+
+}
+.workout-vw{
     
+  
+}
+
+.workout-vdo{
+    height: 80px ;
+    width: 110px;
+    margin-right: 50%;
+    margin-left:-100px;
+    margin-top: 80px;
+    padding-left: 30px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(81, 78, 78, 0.5);
+}
+
+.workout-circle-vdo{
+    display: flex;
+    height: 80px ;
+    width: 150px;
+    margin-right: 50%;
+    margin-left:-400px;
+    margin-top: 160px;
+    padding-left: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    background-color: rgba(81, 78, 78, 0.5);
 }
