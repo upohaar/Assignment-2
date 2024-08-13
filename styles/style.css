@@ -81,6 +81,9 @@ body{
     border-radius: 39px;
     margin-right: 8%;
 }
+.hambar{
+    display: none;
+}
 
 .header-section{
     display: flex;
@@ -146,4 +149,36 @@ body{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     background-color: rgba(81, 78, 78, 0.5);
+}
+
+/* change your habit section */
+.habit-section{
+    margin-top:200px ;
+    margin-right: 0px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.habit-menu{ 
+    display: flex;
+}
+
+.habit-title{
+   text-align: center;
+   padding-bottom: 20px;
+}
+.habit-main{
+    width:auto;
+    height: 450px;
+    /* border: 1px solid green; */
+    text-align: center;
+}
+.habit-img{
+    border-radius: 50%;
+}
+
+/* run section */
+
+.run-main{
+    display: flex;
+    
 }
