@@ -1,0 +1,11 @@
+@media screen and (max-width:470px ) {
+    .nav-menu{
+        display:none;
+    }
+    .header-section{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        
+    }
+}
