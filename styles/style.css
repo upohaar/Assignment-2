@@ -121,10 +121,6 @@ body{
     display: flex;
 
 }
-.workout-vw{
-    
-  
-}
 
 .workout-vdo{
     height: 80px ;
@@ -186,7 +182,6 @@ body{
     margin: 60px;
     background-color: rgba(63, 62, 62, 0.5);
     border-radius: 15px;
-    /* height: 371px; */
     
 }
 .banner-childs{
@@ -202,12 +197,13 @@ body{
 /* BMI */
 .bmi-section{
     display: flex;
-    height: 300px;
+    height: 400px;
+    background-color: rgba(63, 62, 62, 0.5);
 }
 .bmi-cal{
     text-align: center;
     width: 50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     
 }
 .bmi-call{
@@ -224,14 +220,18 @@ body{
     border: 1px solid gray;
     
 }
+
 .bmi-margin{
     margin: 0;
     gap: 0;
 }
+.your-bmi-title{
+    padding: 20px;
+}
 .your-bmi{
     text-align: center;
     width: 50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     
 }
 .input{
@@ -239,7 +239,7 @@ body{
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
     grid-column:span 2;
-    
+    padding: 20px;
 }
 .input-item{
     padding: 10px;
