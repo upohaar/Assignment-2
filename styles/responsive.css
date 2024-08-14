@@ -64,4 +64,11 @@
         width: 500px;
         margin-left: 20px;
     }
+    .extra-section{
+        margin-top:-450px;
+    }
+    .instrument-child{
+        grid-template-columns: repeat(2,1fr);
+        height: 800px;
+    }
 }
