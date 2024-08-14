@@ -59,14 +59,14 @@
     .team-childs{
         width: 500px;
         margin-left:20px;
+        grid-template-columns:repeat(1, 1fr) ;
         /* gap: 20px; */
     }
     .footer-main{
-        
-        /* width: 500px; */
-        /* padding-left: -400px; */
+        margin-top: 10px;
+        grid-template-columns:repeat(1, 1fr) ;
         margin-left: 0px;
-        margin: 0px;
+        
 
     }
     footer{
@@ -77,7 +77,7 @@
         width: 600px;
     }
     .extra-section{
-        margin-top:-450px;
+        margin-top:1800px;
     }
     .instrument-child{
         grid-template-columns: repeat(2,1fr);
