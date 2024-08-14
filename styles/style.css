@@ -180,5 +180,69 @@ body{
 
 .run-main{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: 60px;
+    background-color: rgba(63, 62, 62, 0.5);
+    border-radius: 15px;
+    /* height: 371px; */
+    
+}
+.banner-childs{
+    width: 40%;
+    /* border: 2px solid green; */
+    
+}
+.banner-childs img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+/* BMI */
+.bmi-section{
+    display: flex;
+    height: 300px;
+}
+.bmi-cal{
+    text-align: center;
+    width: 50%;
+    border: 1px solid green;
+    
+}
+.bmi-call{
+    padding-bottom: 40px;
+}
+.bmi-chart{
+    display: flex;
+    width: 30%;
+    margin-left: 40px;
+    /* border: 1px solid green; */
+    margin: auto;
+}
+.bmi-margin{
+    border: 1px solid gray;
+    
+}
+.bmi-margin{
+    margin: 0;
+    gap: 0;
+}
+.your-bmi{
+    text-align: center;
+    width: 50%;
+    border: 1px solid green;
+    
+}
+.input{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    grid-column:span 2;
+    
+}
+.input-item{
+    padding: 10px;
+    background-color: rgba(80, 78, 78, 0.214);
     
 }

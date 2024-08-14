@@ -2,13 +2,23 @@
     .nav-menu{
         display:none;
     }
+    .hambar{
+        display: block;
+        color: white;
+        margin-right: -150px;
+    }
     .header-section{
         flex-direction: column;
         margin: 0;
         padding: 0;
         
     }
-    .hambar{
-        display: block;
+   
+    .habit-menu{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+    .run-main{
+        display: none;
     }
 }
