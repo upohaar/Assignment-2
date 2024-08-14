@@ -13,12 +13,55 @@
         padding: 0;
         
     }
-   
+   .habit-title{
+    margin-top: 500px;
+   }
     .habit-menu{
         display: grid;
         grid-template-columns: 2fr 2fr;
     }
     .run-main{
-        display: none;
+        margin-top: 500px;
+        /* flex-direction: column; */
+        width: 400px;
+
+    }
+    .bmi-section{
+        flex-direction: column;
+        height: 850px;
+        width: 450px;
+    }
+    .bmi-calculator{
+        margin-top: 50px;
+        /* margin-left: 20px; */
+    }
+    .bmi{
+        margin-left:50px;
+    }
+    .bmi-chart{
+        width: 300px;
+        padding-left: 50px;
+    }
+    .team-main{
+        margin-top: -400px;
+    }
+    .habit-title{
+        margin-left: 60px;
+    }
+    .team-childs{
+        width: 500px;
+        margin-left:20px;
+    }
+    .footer-main{
+        
+        /* width: 500px; */
+        /* padding-left: -400px; */
+        margin-left: 0px;
+        margin: 0px;
+
+    }
+    footer{
+        width: 500px;
+        margin-left: 20px;
     }
 }
